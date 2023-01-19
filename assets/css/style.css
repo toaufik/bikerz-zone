@@ -9,6 +9,14 @@ section,
     padding: 64px 0;
 }
 
+.btn-accent {
+    background-color: var(--btn-color);
+    color: var(--white-color);
+    padding: 10px 45px;
+}
+
+/* Navbar */
+
 nav {
     background-color: var(--accent-color);
 }
@@ -18,12 +26,6 @@ nav {
 .banner-area {
     background-color: var(--accent-color);
     padding: 120px 0 95px;
-}
-
-.btn-accent {
-    background-color: var(--btn-color);
-    color: var(--white-color);
-    padding: 10px 45px;
 }
 
 .banner-heading {
