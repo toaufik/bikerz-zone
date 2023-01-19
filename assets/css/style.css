@@ -1,0 +1,43 @@
+:root {
+    --accent-color: #264653;
+    --btn-color: #E76F51;
+    --white-color: #fff;
+}
+
+section,
+.footer-area {
+    padding: 64px 0;
+}
+
+nav {
+    background-color: var(--accent-color);
+}
+
+/* Banner Area */
+
+.banner-area {
+    background-color: var(--accent-color);
+    padding: 120px 0 95px;
+}
+
+.btn-accent {
+    background-color: var(--btn-color);
+    color: var(--white-color);
+    padding: 10px 45px;
+}
+
+.banner-heading {
+    padding: 10px 0 18px;
+}
+
+/* Feature Area */
+
+.feature-area img {
+    width: 290px;
+}
+
+/* Footer Area */
+
+.footer-area {
+    background-color: #0B0D17;
+}
