@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 :root {
     --accent-color: #264653;
     --btn-color: #E76F51;
     --white-color: #fff;
+    --text-color: #E0E0E0;
+    --heading-color: #18191F;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
 section,
@@ -15,31 +23,91 @@ section,
     padding: 10px 45px;
 }
 
+.btn.btn-accent-outline {
+    border-color: var(--btn-color);
+    background-color: transparent;
+    color: var(--btn-color);
+    padding: 10px 45px;
+}
+
+.btn.btn-accent-outline:hover {
+    border-color: var(--btn-color);
+    background-color: var(--btn-color);
+    color: var(--white-color);
+}
+
+.section-title {
+    position: relative;
+}
+
+.section-title:after {
+    position: absolute;
+    content: "";
+    background: var(--btn-color);
+    height: 2px;
+    width: 100px;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
 /* Navbar */
 
 nav {
     background-color: var(--accent-color);
 }
 
+.navbar-brand {
+    font-size: 26px;
+}
+
+.nav-link {
+    color: var(--white-color);
+}
+
+.nav-item .btn-accent {
+    padding: 10px 24px;
+}
+
 /* Banner Area */
 
 .banner-area {
     background-color: var(--accent-color);
-    padding: 120px 0 95px;
+    padding: 100px 0 95px;
 }
 
 .banner-heading {
-    padding: 10px 0 18px;
+    padding: 6px 0 10px;
 }
 
 /* Feature Area */
+
 
 .feature-area img {
     width: 290px;
 }
 
+/* Reviews Area */
+
+.user-portrait {
+    width: 125px;
+}
+
+i.bi.bi-star-fill,
+i.bi.bi-star {
+    color: #DFA739;
+}
+
+/* FAQ Area */
+
+
+
 /* Footer Area */
 
 .footer-area {
     background-color: #0B0D17;
+}
+
+.apps img {
+    width: 150px;
 }
